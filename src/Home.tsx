@@ -220,7 +220,7 @@ const Home = (props: HomeProps) => {
     const [payWithSplToken, setPayWithSplToken] = useState(false);
     const [price, setPrice] = useState(0.069);
     const [priceLabel, setPriceLabel] = useState<string>("SOL");
-    const [whitelistPrice, setWhitelistPrice] = useState(0);
+    const [whitelistPrice, setWhitelistPrice] = useState(0.069);
     const [whitelistEnabled, setWhitelistEnabled] = useState(false);
     const [isBurnToken, setIsBurnToken] = useState(false);
     const [whitelistTokenBalance, setWhitelistTokenBalance] = useState(0.069);
